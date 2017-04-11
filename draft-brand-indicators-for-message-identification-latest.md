@@ -487,12 +487,12 @@ selector: Selector used in a successful BIMI lookup (plain-text; REQUIRED). Rang
 
 In this example, sub.example.com does not have a BIMI record at default._bimi.sub.example.com, nor does default._bimi.example.com
 
-#### Subdomain has no default record, but organizataional domain does
+#### Subdomain has no default record, but organizational domain does
 
     From: sender@sub.example.com
     Authentication-Results: bimi=pass header.d=example.com selector=default;
 
-#### Subdomain has no record for selector, but organization domain has a deafult
+#### Subdomain has no record for selector, but organization domain has a default
 
     From: sender@sub.example.com
     BIMI-Selector: v=BIMI1; s=selector;
